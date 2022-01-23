@@ -22,7 +22,7 @@
 #weather{
     position:fixed;
     top : 20px;
-    right:30px;
+    left:30px;
 }
 #temp{
     font-size:large;

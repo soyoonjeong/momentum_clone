@@ -23,7 +23,7 @@ function onGeoOk(position){
         const weather = document.querySelector("#weather i");
         spans[0].innerText = data.name; //city
         spans[1].innerText = Math.ceil(data.main.temp)+"°"; //temp
-        weather.className= weatherIcon[(data.weather[0].icon).substr(0,2)] +" fa-2x";
+        weather.className= weatherIcon[(data.weather[0].icon).substr(0,2)] +" fa-lg";
     })
 }
 function onGeoError(){
