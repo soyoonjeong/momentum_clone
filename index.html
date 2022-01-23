@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content = "width=device-width, initial-scale=1.0"/>
+        <link rel = "stylesheet" href="css/styles.css">
+
+        <title>Momentum</title>
+    </head>
+    <body class="flex-box" style="height:100vh">
+        <div id="weather" class="flex-box">
+            <span class="bold"></span>
+            <div class="flex-box row" style="margin-top : 10px;">
+                <i></i>
+                <span id="temp" class="bold"></span>
+            </div>
+        </div>
+        <div id="clock" class="flex-box">
+            <h2></h2>
+            <span class="bold" style="font-size: 100px;"></span>
+        </div>
+        <form id='login-form' class="hidden">
+            <input required maxlength=15 type='text' placeholder="your name" style="width:200px;">
+        </form>
+        <h1 id="greeting" class='hidden'></h1>
+        <div id="todo" class="flex-box right">
+            <form id="todo-form">
+                <input type="text" placeholder="write what to do" required style="width:300px;"> 
+            </form>
+            <ul id="todo-list" class="flex-box"></ul>
+        </div>
+        <!--<div id="quotes">
+            <span></span>
+            <span></span>
+        </div>-->
+        <script src="js/greetings.js"></script>
+        <script src="js/clock.js"></script>
+        <!--<script src="js/quotes.js"></script>-->
+        <script src="js/background.js"></script>
+        <script src="js/todo.js"></script>
+        <script src="js/weather.js"></script>
+        <script src="https://kit.fontawesome.com/14b508fef4.js" crossorigin="anonymous"></script>
+    </body>
+</html>
