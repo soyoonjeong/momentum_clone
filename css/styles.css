@@ -17,7 +17,12 @@
 .right{
     position:fixed;
     right:30px;
-    top : 130px;
+    top : 220px;
+}
+.left{
+    position:fixed;
+    left:150px;
+    top : 330px;
 }
 #weather{
     position:fixed;
@@ -36,6 +41,11 @@
     margin:10px 30px;
     padding:0px;
     border-radius :5px;
+}
+#timer{
+    background-color : rgba(255,255,255,0.5);
+    padding : 20px;
+    border-radius : 5px;
 }
 li{
     display:flex;
@@ -61,10 +71,23 @@ input[type="text"]{
     border-radius :5px;
     border:none;
 }
+input[type="number"]{
+    width : 50px;
+    height : 30px;
+    text-align :center;
+    border-radius :5px;
+    border:none;
+}
 input[type="checkbox"]{
     width:15px;
     height:15px;
 }
 .done{
     text-decoration:line-through;
+}
+button{
+    border: none;
+    padding : 7px;
+    border-radius : 2px;
+    font-weight:bold;
 }
